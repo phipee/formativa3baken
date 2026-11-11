@@ -1,0 +1,13 @@
+{% extends "prestamos/base.html" %}
+
+{% block title %}Iniciar sesión | Herramientas{% endblock %}
+
+{% block content %}
+    <h1>Iniciar sesión</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input type="hidden" name="next" value="{{ next }}">
+        <button type="submit">Ingresar</button>
+    </form>
+{% endblock %}

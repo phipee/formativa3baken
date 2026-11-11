@@ -9,6 +9,18 @@
     <header>
         <nav aria-label="Menú principal">
             <a href="{% url 'inicio' %}">Inicio</a>
+            {% if user.is_authenticated %}
+                <span>Conectado: {{ user.get_username }}</span>
+                {% if user.is_staff %}
+                    <a href="{% url 'panel_encargado' %}">Panel del encargado</a>
+                {% endif %}
+                <form method="post" action="{% url 'logout' %}">
+                    {% csrf_token %}
+                    <button type="submit">Cerrar sesión</button>
+                </form>
+            {% else %}
+                <a href="{% url 'login' %}">Iniciar sesión</a>
+            {% endif %}
         </nav>
     </header>
     <main>
