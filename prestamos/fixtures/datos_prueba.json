@@ -1,0 +1,206 @@
+[
+  {
+    "model": "prestamos.categoria",
+    "pk": 1,
+    "fields": {
+      "nombre": "Herramientas manuales",
+      "descripcion": "Herramientas de uso manual para trabajos generales."
+    }
+  },
+  {
+    "model": "prestamos.categoria",
+    "pk": 2,
+    "fields": {
+      "nombre": "Herramientas eléctricas",
+      "descripcion": "Herramientas motorizadas para construcción y reparación."
+    }
+  },
+  {
+    "model": "prestamos.categoria",
+    "pk": 3,
+    "fields": {
+      "nombre": "Instrumentos de medición",
+      "descripcion": "Instrumentos para medir distancias, niveles y dimensiones."
+    }
+  },
+  {
+    "model": "prestamos.herramienta",
+    "pk": 1,
+    "fields": {
+      "codigo": "MAN-001",
+      "nombre": "Martillo de uña",
+      "categoria": 1,
+      "estado": "bueno",
+      "disponible": true,
+      "fecha_ingreso": "2025-01-15"
+    }
+  },
+  {
+    "model": "prestamos.herramienta",
+    "pk": 2,
+    "fields": {
+      "codigo": "MAN-002",
+      "nombre": "Destornillador plano",
+      "categoria": 1,
+      "estado": "bueno",
+      "disponible": true,
+      "fecha_ingreso": "2025-01-16"
+    }
+  },
+  {
+    "model": "prestamos.herramienta",
+    "pk": 3,
+    "fields": {
+      "codigo": "MAN-003",
+      "nombre": "Juego de llaves combinadas",
+      "categoria": 1,
+      "estado": "regular",
+      "disponible": true,
+      "fecha_ingreso": "2025-01-17"
+    }
+  },
+  {
+    "model": "prestamos.herramienta",
+    "pk": 4,
+    "fields": {
+      "codigo": "MAN-004",
+      "nombre": "Alicate universal",
+      "categoria": 1,
+      "estado": "bueno",
+      "disponible": true,
+      "fecha_ingreso": "2025-01-18"
+    }
+  },
+  {
+    "model": "prestamos.herramienta",
+    "pk": 5,
+    "fields": {
+      "codigo": "MAN-005",
+      "nombre": "Serrucho manual",
+      "categoria": 1,
+      "estado": "regular",
+      "disponible": true,
+      "fecha_ingreso": "2025-01-19"
+    }
+  },
+  {
+    "model": "prestamos.herramienta",
+    "pk": 6,
+    "fields": {
+      "codigo": "ELE-001",
+      "nombre": "Taladro percutor",
+      "categoria": 2,
+      "estado": "bueno",
+      "disponible": true,
+      "fecha_ingreso": "2025-02-01"
+    }
+  },
+  {
+    "model": "prestamos.herramienta",
+    "pk": 7,
+    "fields": {
+      "codigo": "ELE-002",
+      "nombre": "Sierra circular",
+      "categoria": 2,
+      "estado": "regular",
+      "disponible": true,
+      "fecha_ingreso": "2025-02-02"
+    }
+  },
+  {
+    "model": "prestamos.herramienta",
+    "pk": 8,
+    "fields": {
+      "codigo": "ELE-003",
+      "nombre": "Esmeril angular",
+      "categoria": 2,
+      "estado": "bueno",
+      "disponible": true,
+      "fecha_ingreso": "2025-02-03"
+    }
+  },
+  {
+    "model": "prestamos.herramienta",
+    "pk": 9,
+    "fields": {
+      "codigo": "ELE-004",
+      "nombre": "Lijadora orbital",
+      "categoria": 2,
+      "estado": "en_reparacion",
+      "disponible": false,
+      "fecha_ingreso": "2025-02-04"
+    }
+  },
+  {
+    "model": "prestamos.herramienta",
+    "pk": 10,
+    "fields": {
+      "codigo": "ELE-005",
+      "nombre": "Atornillador inalámbrico",
+      "categoria": 2,
+      "estado": "bueno",
+      "disponible": true,
+      "fecha_ingreso": "2025-02-05"
+    }
+  },
+  {
+    "model": "prestamos.herramienta",
+    "pk": 11,
+    "fields": {
+      "codigo": "MED-001",
+      "nombre": "Cinta métrica de 5 m",
+      "categoria": 3,
+      "estado": "bueno",
+      "disponible": true,
+      "fecha_ingreso": "2025-03-01"
+    }
+  },
+  {
+    "model": "prestamos.herramienta",
+    "pk": 12,
+    "fields": {
+      "codigo": "MED-002",
+      "nombre": "Nivel de burbuja",
+      "categoria": 3,
+      "estado": "bueno",
+      "disponible": true,
+      "fecha_ingreso": "2025-03-02"
+    }
+  },
+  {
+    "model": "prestamos.herramienta",
+    "pk": 13,
+    "fields": {
+      "codigo": "MED-003",
+      "nombre": "Calibrador Vernier",
+      "categoria": 3,
+      "estado": "regular",
+      "disponible": true,
+      "fecha_ingreso": "2025-03-03"
+    }
+  },
+  {
+    "model": "prestamos.herramienta",
+    "pk": 14,
+    "fields": {
+      "codigo": "MED-004",
+      "nombre": "Escuadra metálica",
+      "categoria": 3,
+      "estado": "bueno",
+      "disponible": true,
+      "fecha_ingreso": "2025-03-04"
+    }
+  },
+  {
+    "model": "prestamos.herramienta",
+    "pk": 15,
+    "fields": {
+      "codigo": "MED-005",
+      "nombre": "Medidor láser",
+      "categoria": 3,
+      "estado": "bueno",
+      "disponible": true,
+      "fecha_ingreso": "2025-03-05"
+    }
+  }
+]
